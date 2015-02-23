@@ -23,6 +23,10 @@ body > footer {
   margin: 0 auto;
 }
 
+body > header {
+  position: relative;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -38,6 +42,28 @@ h1, {
 h2, p {
   padding: 0 0 15px 0;
   margin: 0;
+}
+
+#login_message {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 15px 20px;
+  font: bold 12px Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #339933;
+  border: 2px solid #339933;
+  border-radius: 6px;
+  background: #c0f0c0;
+}
+
+#logout {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 article header {
