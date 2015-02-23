@@ -49,6 +49,67 @@ article {
   padding: 0 0 20px 0;
 }
 
+#posts {
+  float: left;
+  width: 77%;
+  margin-right: 3%
+}
+
+#sidebar {
+  float: right;
+  width: 20%;
+}
+
+#sidebar ul {
+  padding-left: 1.2em;
+}
+
+#sidebar > ul:first-of-type {
+  text-align: center;
+}
+
+#sidebar > ul:first-of-type li {
+  display: inline;
+  padding: 0 5px;
+  line-height: 150%;
+}
+
+#sidebar > ul:last-of-type a {
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-indent: -9999px;
+  background: url("social_media.png") 0 0 no-repeat;
+}
+
+#sidebar > ul:last-of-type li {
+  float: left;
+}
+
+#sidebar > ul:last-of-type a.twitter {
+  background-position: 33% 0;
+}
+
+#sidebar > ul:last-of-type a.linkedin {
+  background-position: 66% 0;
+}
+
+#sidebar > ul:last-of-type a.instagram {
+  background-position: 100% 0;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  display: block;
+}
+
+label, input {
+  margin: 0 0 10px 0;
+}
+
 h1, h2 {
   font-family: Georgia, serif;
 }
@@ -78,17 +139,6 @@ span {
   border: 2px solid #b00b00;
 }
 
-footer {
-  padding: 15px;
-  font-size: .85em;
-  color: #acacac;
-  background: #181818;
-}
-
-footer p {
-  padding: 0;
-}
-
 figure {
   margin: 0 0 20px 0;
 }
@@ -103,4 +153,21 @@ figcaption {
   border: 1px solid rgb(204, 204, 204);
   border-top: none;
   font-style: italic;
+}
+
+a.facebook {
+  padding-left: 20px;
+  background: #f0f099 url("facebook.png") 0 0 / 16px no-repeat;
+}
+
+footer {
+  clear: both;
+  padding: 15px;
+  font-size: .85em;
+  color: #acacac;
+  background: #181818;
+}
+
+footer p {
+  padding: 0;
 }

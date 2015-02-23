@@ -16,7 +16,9 @@
       <article>
         <h2>Contact Me</h2>
         <p>
-          Hello! Thank you for your interest in my blog. If you would like to send me well wishes or questions about any of my topics, you can contact me at:
+          Hello! Thank you for your interest in my blog. If you would like to 
+          send me well wishes or questions about any of my topics, you can 
+          contact me at:
           <br />
           <address>
             Joe Lindt
@@ -26,8 +28,51 @@
             New York, NY 10012
             <br />
             <a href="mailto:joe@myweblog.com">joe@myweblog.com</a>
+            <br />
+            <a href="http://facebook.com/hi_im_joe_lindt" target="_blank" class="facebook">Facebook</a>
           </address>
         </p>
+
+        <form action="" method="post">
+          <fieldset>
+            <dl>
+              <dt>
+                <label for="first_name">First Name</label>
+              </dt>
+              <dd>
+                <input type="text" name="first_name" id="first_name" />
+              </dd>
+              <dt>
+                <label for="last_name">Last Name</label>
+              </dt>
+              <dd>
+                <input type="text" name="last_name" id="last_name" />
+              </dd>
+              <dt>
+                <label for="email">Email</label>
+              </dt>
+              <dd>
+                <input type="email" name="email" id="email" />
+              </dd>
+              <dt>
+                <label for="phone_type">Phone Type</label>
+              </dt>
+              <dd>
+                <select name="phone_type" id="phone_type">
+                  <option value="home" selected>Home</option>
+                  <option value="business">Business</option>
+                  <option value="mobile">Mobile</option>
+                </select>
+              </dd>
+              <dt>
+                <label for="phone">Phone Number</label>
+              </dt>
+              <dd>
+                <input type="tel" name="phone" id="phone" />
+              </dd>
+            </dl>
+          <fieldset>
+        </form>
       </article>
     </main>
 
