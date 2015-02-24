@@ -23,6 +23,10 @@ body > footer {
   margin: 0 auto;
 }
 
+main {
+  position: relative;
+}
+
 body > header {
   position: relative;
 }
@@ -51,12 +55,18 @@ h2, p {
   right: 0;
   left: 0;
   padding: 15px 20px;
+  opacity: 1;
+  transition: top 200ms 2s linear;
   font: bold 12px Helvetica, Arial, sans-serif;
   text-align: center;
   color: #339933;
   border: 2px solid #339933;
   border-radius: 6px;
   background: #c0f0c0;
+}
+
+#login_message.hide {
+  top: -80px;
 }
 
 #logout {
@@ -82,6 +92,9 @@ article {
 }
 
 #sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
   float: right;
   width: 20%;
 }

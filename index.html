@@ -111,98 +111,6 @@
           </fieldset>
         </form>
 
-        <form action="" method="get">
-          <fieldset>
-            <h1>Filter by</h1>
-            <h2>Category</h2>
-            <ul>
-              <li>
-                <label>
-                  <input type="radio" name="category" value="core" />
-                  Core
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="radio" name="category" value="plugins" />
-                  Plugins and Libraries
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="radio" name="category" value="conventions" />
-                  Conventions
-                </label>
-              </li>
-              <li>
-                </label>
-                  <input type="radio" name="category" value="reviews" />
-                  Reviews
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="radio" name="category" value="opinion" />
-                  Opinion
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="radio" name="category" value="people" />
-                  People
-                </label>
-              </li>
-            </ul>
-
-            <h2>Tags</h2>
-            <ul>
-              <li>
-                <label>
-                  <input type="checkbox" name="tag_html" />
-                  HTML
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="checkbox" name="css" />
-                  CSS
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="checkbox" name="javascript" />
-                  Javascript
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="checkbox" name="ruby" />
-                  Ruby
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="checkbox" name="rails" />
-                  Rails
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="checkbox" name="python" />
-                  Python
-                </label>
-              </li>
-              <li>
-                <label>
-                  <input type="checkbox" name="django" />
-                  Django
-                </label>
-              </li>
-            </ul>  
-            <input type="submit" value="Filter" />
-          </fieldset>
-        </form>
-
         <h3>Find Me Elsewhere</h3>
         <ul>
           <li><a href="#" class="facebook">Facebook</a></li>
@@ -216,5 +124,10 @@
     <footer>
       <p>&copy; 2015 Joe Lindt</p>
     </footer>
+    <script>
+      setTimeout(function() {
+        document.querySelector("#login_message").className = "hide";
+      }, 30);
+    </script>
   </body>
 </html>
